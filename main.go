@@ -48,5 +48,6 @@ func registerCommands() *commands {
 	cmds.register("register", handlerRegister)
 	cmds.register("reset", handleReset)
 	cmds.register("users", hanndleGetUsers)
+	cmds.register("agg", handleAgg)
 	return &cmds
 }
